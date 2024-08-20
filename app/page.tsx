@@ -21,12 +21,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-screen flex flex-col items-center justify-center lg:my-auto gap-16 lg:gap-36 mx-4 lg:mx-80">
+      <div className="h-screen flex flex-col items-center justify-center lg:my-auto gap-16 lg:gap-36 mx-4 lg:mx-48">
         <div className="text-2xl lg:text-4xl text-center font-bold">
           Shift offers an innovative and convenient POS for merchants
         </div>
         <div className="flex lg:flex-row flex-col gap-12 lg:gap-36 items-center justify-evenly text-center">
-          <div className="flex flex-col gap-2 lg:gap-16 items-center justify-center lg:max-w-96">
+          <div className="flex flex-col gap-2 lg:gap-16 items-center justify-center">
             <div className="block lg:hidden">
               <SolarIconSet.Tuning size={40} />
             </div>
@@ -34,7 +34,7 @@ export default function Home() {
               <SolarIconSet.Tuning size={100} />
             </div>
 
-            <div className="flex flex-col gap-2 items-center justify-center lg:max-w-96">
+            <div className="flex flex-col gap-2 items-center justify-center">
               <div className="text-lg lg:text-2xl  font-semibold">
                 Easy to Setup
               </div>
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-2 lg:gap-16 items-center justify-center lg:max-w-96">
+          <div className="flex flex-col gap-2 lg:gap-16 items-center justify-center">
             <div className="block lg:hidden">
               <SolarIconSet.GraphNewUp size={40} />
             </div>
@@ -52,7 +52,7 @@ export default function Home() {
               <SolarIconSet.GraphNewUp size={100} />
             </div>
 
-            <div className="flex flex-col gap-2 items-center justify-center lg:max-w-96">
+            <div className="flex flex-col gap-2 items-center justify-center">
               <div className="text-lg lg:text-2xl font-semibold">
                 Higher Margins
               </div>
@@ -61,7 +61,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-2 lg:gap-16 items-center justify-center lg:max-w-96">
+          <div className="flex flex-col gap-2 lg:gap-16 items-center justify-center">
             <div className="block lg:hidden">
               <SolarIconSet.Shop size={40} />
             </div>
@@ -69,7 +69,7 @@ export default function Home() {
               <SolarIconSet.Shop size={100} />
             </div>
 
-            <div className="flex flex-col gap-2 items-center justify-center lg:max-w-96">
+            <div className="flex flex-col gap-2 items-center justify-center">
               <div className="text-lg lg:text-2xl  font-semibold">
                 Attract More Customers
               </div>
@@ -82,7 +82,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-screen flex flex-col items-center justify-center lg:my-auto gap-16 lg:gap-36 mx-4 lg:mx-80">
+      <div className="h-screen flex flex-col items-center justify-center lg:my-auto gap-16 lg:gap-36 mx-4 lg:mx-48">
         <div className="flex flex-col items-center justify-center gap-8">
           <div className="text-2xl lg:text-4xl font-bold text-center">
             How does it work
