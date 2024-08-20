@@ -99,7 +99,7 @@ export default function Home() {
             <div className="text-2xl font-semibold text-center lg:text-left">
               Receive payments in EURC
             </div>
-            <div className="lg:text-lg lg:max-w-96 text-center lg:text-left">
+            <div className="lg:text-lg lg:max-w-80 text-center lg:text-left">
               Customers scan a QRCode and pay you with EURC. You can track
               payments on your dashboard.
             </div>
@@ -120,7 +120,7 @@ export default function Home() {
             <div className="text-2xl font-semibold text-center lg:text-right">
               Convert EURC to EURO
             </div>
-            <div className="lg:text-lg lg:max-w-96 text-center lg:text-right">
+            <div className="lg:text-lg lg:max-w-80 text-center lg:text-right">
               You can then transfer your EURC balance to your bank account in
               EURO, it requires only 1-click!
             </div>
