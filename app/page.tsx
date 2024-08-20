@@ -5,14 +5,14 @@ import * as SolarIconSet from "solar-icon-set";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-4 text-black bg-white gap-48">
+    <main className="flex min-h-screen flex-col items-center p-4 text-black bg-white bg-gradient-to-b from-white via-10% via-amber-100/70 to-25% to-white">
       <div className="flex flex-row w-full items-center justify-center lg:items-left lg:justify-between lg:flex">
         <Image src={"/images/logo.svg"} height={50} width={100} alt="logo" />
         <div className=" hidden sm:block">
           <TallyButton label="Get started" />
         </div>
       </div>
-      <div className="flex flex-col gap-4 items-center justify-center my-auto">
+      <div className="h-screen flex flex-col gap-4 items-center justify-center">
         <div className="text-6xl lg:text-8xl text-center font-black">
           Lower Fees. Higher Profits. Loyal Customers.
         </div>
@@ -20,37 +20,60 @@ export default function Home() {
           <TallyButton label="Get started" />
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center pt-48 lg:pt-72 lg:my-auto gap-36 lg:gap-72 mx-16 lg:mx-80">
+
+      <div className="h-screen flex flex-col items-center justify-center lg:my-auto gap-16 lg:gap-36 mx-4 lg:mx-80">
         <div className="text-2xl lg:text-4xl text-center font-bold">
           Shift offers an innovative and convenient POS for merchants
         </div>
-        <div className="flex lg:flex-row flex-col gap-24 lg:gap-36 items-center justify-evenly text-center">
-          <div className="flex flex-col gap-4 lg:gap-16 items-center justify-center lg:max-w-96">
-            <SolarIconSet.Tuning size={100} />
+        <div className="flex lg:flex-row flex-col gap-12 lg:gap-36 items-center justify-evenly text-center">
+          <div className="flex flex-col gap-2 lg:gap-16 items-center justify-center lg:max-w-96">
+            <div className="block lg:hidden">
+              <SolarIconSet.Tuning size={40} />
+            </div>
+            <div className="hidden lg:block">
+              <SolarIconSet.Tuning size={100} />
+            </div>
+
             <div className="flex flex-col gap-2 items-center justify-center lg:max-w-96">
-              <div className="text-2xl font-semibold">Easy to Setup</div>
-              <div className="text-lg">
+              <div className="text-lg lg:text-2xl  font-semibold">
+                Easy to Setup
+              </div>
+              <div className="text-md lg:text-lg">
                 No additional device required. Customers pay scanning your Shift
                 QRCode.
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-4 lg:gap-16 items-center justify-center lg:max-w-96">
-            <SolarIconSet.GraphNewUp size={100} />
+          <div className="flex flex-col gap-2 lg:gap-16 items-center justify-center lg:max-w-96">
+            <div className="block lg:hidden">
+              <SolarIconSet.GraphNewUp size={40} />
+            </div>
+            <div className="hidden lg:block">
+              <SolarIconSet.GraphNewUp size={100} />
+            </div>
+
             <div className="flex flex-col gap-2 items-center justify-center lg:max-w-96">
-              <div className="text-2xl font-semibold">Higher Margins</div>
-              <div className="text-lg">
+              <div className="text-lg lg:text-2xl font-semibold">
+                Higher Margins
+              </div>
+              <div className="text-md lg:text-lg">
                 Traditional solutions get 2-4% fee. Shift cuts them down to 1%.
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-4 lg:gap-16 items-center justify-center lg:max-w-96">
-            <SolarIconSet.Shop size={100} />
+          <div className="flex flex-col gap-2 lg:gap-16 items-center justify-center lg:max-w-96">
+            <div className="block lg:hidden">
+              <SolarIconSet.Shop size={40} />
+            </div>
+            <div className="hidden lg:block">
+              <SolarIconSet.Shop size={100} />
+            </div>
+
             <div className="flex flex-col gap-2 items-center justify-center lg:max-w-96">
-              <div className="text-2xl font-semibold">
+              <div className="text-lg lg:text-2xl  font-semibold">
                 Attract More Customers
               </div>
-              <div className="text-lg">
+              <div className="text-md lg:text-lg">
                 Join the growing network of merchants who accept payments with
                 Shift.
               </div>
@@ -58,17 +81,19 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center lg:pt-72 my-auto gap-16 lg:gap-36 lg:mx-80">
+
+      <div className="h-screen flex flex-col items-center justify-center lg:my-auto gap-16 lg:gap-36 mx-4 lg:mx-80">
         <div className="flex flex-col items-center justify-center gap-8">
-          <div className="text-4xl font-bold text-center">How does it work</div>
-          <div className="text-lg text-center">
+          <div className="text-2xl lg:text-4xl font-bold text-center">
+            How does it work
+          </div>
+          <div className="text-md lg:text-lg text-center">
             Shift lets your customers pay with EURC, a secure digital euro
             benefiting the speed of the internet. You can use EURC just like you
             would any euro – send and receive payments globally, or to save and
             earn on your money.
           </div>
         </div>
-
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-36 items-center justify-evenly">
           <div className="flex flex-col gap-2 lg:items-start lg:justify-start items-center justify-center">
             <div className="text-2xl font-semibold text-center lg:text-left">
@@ -102,7 +127,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center lg:py-72 my-auto gap-36">
+
+      <div className="h-screen flex flex-col items-center justify-center lg:py-72 my-auto gap-36">
         <div className="flex flex-col items-center justify-center gap-8">
           <div className="text-4xl font-bold text-center">
             Want to learn more?
