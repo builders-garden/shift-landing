@@ -5,7 +5,7 @@ import * as SolarIconSet from "solar-icon-set";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-4 text-black bg-white bg-gradient-to-b from-white via-10% via-amber-100/70 to-25% to-white">
+    <main className="flex min-h-screen flex-col items-center p-6 text-black bg-white  bg-gradient-to-b from-cyan-100/30 via-10% via-amber-100/50 to-25% to-white">
       <div className="flex flex-row w-full items-center justify-center lg:items-left lg:justify-between lg:flex">
         <Image src={"/images/logo.svg"} height={50} width={100} alt="logo" />
         <div className=" hidden sm:block">
